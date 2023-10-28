@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-image: url("https://www.njea.org/wp-content/uploads/bb-plugin/cache/cold-weather-1024x768-landscape-ae5ba33f8bdb9c92e69a78b4fd1f3de4-60f5e5ef0f08a.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.container {
+    width: 60%;
+    max-width: 200px;
+    background-image: url("https://images.pexels.com/photos/7130549/pexels-photo-7130549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position:end;
+    padding: 80px;
+    border-radius: 90px;
+    box-shadow: black;
+    text-align: center;
+    margin-left:740px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color:brown;
+}
+
+label {
+    font-size: 30px;
+    padding: 40px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 75%;
+    padding: 10px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+#fromScale {
+    width: 75%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#toScale {
+    width: 75%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    background-color: white;
+    color: #323f4b;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+
+
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#output {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px;
+    color: orangered;
+}
